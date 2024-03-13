@@ -9,7 +9,7 @@ This project provides a simple React app to enjoy a number of posts containing d
 
 ## Getting Started
 
-First, you need to be using Node version 16 to run this app. Trying to run it with Node 17 (or later) will cause errors. You can change node versions with nvm (or whatever you prefer).
+First, you need to be using Node version 16 to run this app. Trying to run it with Node 17 (or later) will cause an error with `react-scripts`. You can change node versions with nvm (or whatever you prefer).
 
 Next, before you can launch the app, you will need to install the node dependencies. To do this, run:
 
