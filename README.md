@@ -2,6 +2,14 @@
 
 This project provides a simple React app to enjoy a number of posts containing dog images with fun descriptions.
 
+## Getting Started
+
+From the main project directory, run,
+
+### `npm install`
+
+to install all required dependencies.
+
 ## Available Scripts
 
 From the main project directory, you can run the following commands:
