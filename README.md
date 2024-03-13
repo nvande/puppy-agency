@@ -9,11 +9,13 @@ This project provides a simple React app to enjoy a number of posts containing d
 
 ## Getting Started
 
-Before you can launch the app, you will need to install the node dependencies. To do this, run:
+First, you need to be using Node version 16 to run this app. Trying to run it with Node 17 (or later) will cause an error with `react-scripts`. You can change node versions with nvm (or whatever you prefer).
+
+Next, before you can launch the app, you will need to install the node dependencies. To do this, run:
 
 ### `npm install`
 
-Next, from the main project directory, you can run the following command:
+To start the app, from the main project directory, you can run the following command:
 
 ### `npm run start`
 
