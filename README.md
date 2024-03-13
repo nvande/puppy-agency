@@ -4,11 +4,8 @@ This project provides a simple React app to enjoy a number of posts containing d
 
 ## Getting Started
 
-From the main project directory, run,
-
 ### `npm install`
-
-to install all required dependencies.
+### `npm run start`
 
 ## Available Scripts
 
