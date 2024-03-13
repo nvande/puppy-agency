@@ -1,13 +1,14 @@
+import React, { useState, useEffect } from "react";
+
 import { getDogs } from "../../utility/dogapi";
 import useDebounce from "../../utility/useDebounce";
 
-import React, { useState, useEffect } from "react";
 import Slide from "../Slides/Slide";
 import SlideshowControls from "./Controls/SlideshowControls";
+import NumberInput from "./Controls/NumberInput";
+
 import SpinnerBit from "../../bits/Spinner";
 import ErrorBit from "../../bits/Error";
-
-import NumberInput from "./Controls/NumberInput";
 
 import { Post } from "../../types/types.js";
 
