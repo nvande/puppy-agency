@@ -22,6 +22,10 @@ const Slideshow: React.FC = () => {
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
+    fetchPosts();
+  }, []);
+
+  useEffect(() => {
     if (debouncedNumber) {
       fetchPosts(parseInt(debouncedNumber));
     }
@@ -82,10 +86,8 @@ const Slideshow: React.FC = () => {
             leftDisabled={index === 0}
             rightDisabled={index === posts.length - 1}
           />
-          <div style={{ padding: "10px", textAlign: "center" }}>
-            <span>
-              Post {index + 1} of {posts.length}
-            </span>
+          <div style={{ padding: "10px", textAlign:"center"}}>
+            <span>Post {index+1} of {posts.length}</span>
           </div>
         </>
       )}

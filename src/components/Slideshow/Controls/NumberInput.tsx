@@ -30,17 +30,18 @@ const styles: {
   container: {
     marginTop: "20px",
     display: "flex",
-    flexDirection: "column",
-    alignItems: "center",
+    flexDirection: "row",
+    alignItems: "center", 
     justifyContent: "center",
     fontFamily: "Arial, sans-serif",
   },
   label: {
-    marginBottom: "4px",
+    marginRight: "10px",
     fontSize: "14px",
   },
   input: {
-    width: "200px",
+    textAlign: "center",
+    width: "40px",
     padding: "10px",
     fontSize: "18px",
     border: "1px solid #ccc",
