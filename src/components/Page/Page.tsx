@@ -7,7 +7,7 @@ const copy = {
   sitename: "The United States Puppy Employment Administration",
   footer: "This website is for demonstration purposes only.",
   attributes:
-    "Dog images provided by Reddit.com/r/dogswithjobs, and the good people of the Toronto Police Service.",
+    "Dog images pulled from Reddit.com/r/dogswithjobs.",
 };
 
 interface Props {

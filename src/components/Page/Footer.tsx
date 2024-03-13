@@ -17,7 +17,7 @@ const Footer: React.FC<Props> = ({ footer, attributes }) => {
 
 const style: React.CSSProperties = {
   boxSizing: "border-box",
-  height: "100px",
+  minHeight: "100px",
   padding: "30px",
   backgroundColor: "#444",
   color: "#fff",
